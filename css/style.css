@@ -1,0 +1,232 @@
+
+.kontener{
+    height:3800px;
+    width: 100%;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns:50px 150px 150px 50px 285px 285px 142px 142px  ;
+    grid-template-rows: 88.5cm;
+   
+}
+.div1{
+    background-color: rgba(255, 255, 255, 0.5);
+    grid-column-start:2 ;
+    grid-column-end:4 ;
+    grid-row-start:1 ;
+    grid-row-end:3 ;
+    border-radius: 16px 16px 16px 16px;
+    
+}
+.div2{
+background-color: rgba(255, 255, 255, 0.5);
+grid-column-start: 5;
+grid-column-end: 10;
+grid-row-start:1 ;
+    grid-row-end:3 ;
+border-radius: 16px 16px 16px 16px;
+grid-template-columns: 50px; 
+    grid-template-rows: 100px 
+
+
+}
+.photo_1{
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 16px 16px 16px 16px;
+    opacity: 1;
+    float: left;
+}
+.p1{
+    font-size: 250%;
+    margin-top: 100px;
+    
+}
+.h1{
+    margin-top: 10%;
+    margin-left: 4%;
+    font-size: 250;
+    border-bottom: 10px double black;
+    width: 60%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.p2{
+    font-size: 250%;
+    margin-top: 2%;
+    margin-bottom: -7%;
+    
+
+} 
+p{
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.h2{
+    margin-top: 400px;
+    margin-left: 120%;
+    font-size: 70px;
+    border-bottom: 10px double black;
+    width: 60%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.p3{ 
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: -300px;
+} 
+td{
+   padding-left: 5%; 
+
+    font-size: 12px;
+}
+table{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:checked{
+    text-decoration: none;
+    color: gray
+}
+a:hover{
+    text-decoration: none;
+    font-size: 105%;
+    color: gray;
+}
+.photo_2{
+    width: 170px;
+    height: 150px;
+    float: right;
+    border-radius: 16px 16px 16px 16px;
+    margin-top: 0px;
+    margin-right:-40px ;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+.photo_3{
+    width: 170px;
+    height: 150px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 0px;
+    border-radius: 16px 16px 16px 16px;
+}
+.photo_4{
+    width: 170px;
+    height: 150px;
+    float: right;
+    margin-top: 220px;
+    margin-right: -180px;
+    border-radius: 16px 16px 16px 16px;
+    margin-left: 30px;
+    
+}
+.h3{
+    font-size: 300%;
+}
+.photo_telefon{
+    float: left;
+    width: 20%; 
+    margin-right: -50%;
+}
+.photo_at{
+    float:left;
+    width: 20%;
+    margin-top: 15%;
+    margin-right: -50%;
+}
+.photo_at2{
+    float:left;
+    width: 20%;
+    margin-top: 20%;
+    margin-right: -50%;
+}
+.p5{
+    margin-left: 30%;
+    margin-top: 10%;
+    padding-top: 10%;
+}
+.p6{
+    margin-left: 30%;
+    margin-top: 20%;
+    padding-top: 10%;
+}
+.p7{
+    margin-left: 30%;
+    margin-top: 10%;
+    padding-top: 10%;
+}
+.kapcs{
+    display: grid;
+    grid-template-columns:30% 70%;
+    grid-template-rows: 33%;
+    height: 250px;
+}
+.grid_kapcs_1{
+    grid-column-start:1 ;
+    grid-column-end:1 ;
+    grid-row-start:1 ;
+    grid-row-end:1 ;
+    
+}
+.grid_kapcs_2{
+    grid-column-start:2 ;
+    grid-column-end:2 ;
+    grid-row-start:1 ;
+    grid-row-end:1 ;
+    margin-top: 10%;
+    margin-left: 8%;
+    font-size: x-large;
+}
+.grid_kapcs_3{
+    grid-column-start:1 ;
+    grid-column-end:1 ;
+    grid-row-start:2 ;
+    grid-row-end:2 ;
+    margin-top: 10%;
+    margin-left: 8%;
+    font-size: x-large;
+
+}
+.grid_kapcs_4{
+    grid-column-start:2 ;
+    grid-column-end:2 ;
+    grid-row-start:2 ;
+    grid-row-end:2 ;
+    margin-top: 10%;
+    margin-left: 8%;
+    font-size: 100%;
+}
+.grid_kapcs_5{
+    grid-column-start:1 ;
+    grid-column-end:1 ;
+    grid-row-start:3 ;
+    grid-row-end:3 ;
+    margin-top: 10%;
+    margin-left: 8%;
+    font-size: x-large;
+}
+.grid_kapcs_6{
+    grid-column-start:2 ;
+    grid-column-end:2 ;
+    grid-row-start:3 ;
+    grid-row-end:3 ;
+    margin-top: 10%;
+    margin-left: 8%;
+    font-size: x-large;
+}
+.video_1{
+    width: 300px;
+
+    float: right;
+    border-radius: 16px 16px 16px 16px;
+    margin-top: 350px;
+    margin-right:-350px ;
+    margin-left: 55px;
+    margin-bottom: -10px;
+    
+}
